@@ -20,24 +20,31 @@ class starter {
         // Expected:
         // Apples picked: 12
         // Box weight: 2.5
-
+z
         // ===================================================
         // SECTION 2: Basic arithmetic (+, -, *)
         // ===================================================
  
         int applesPerBasket = 4;
  
-        // TODO: Construct and declare an int variable named totalBaskets that equals
+        // TODO: Construct and declare an int variabl
+        // '
+        // '
+        // e named totalBaskets that equals
         // applesPicked multiplied by applesPerBasket
         int totalBaskets = applesPicked * applesPerBasket
     
  
-        System.out.println("Total baskets: " + totalBaskets);
+        System.out.println("Total baskets: " + totalB
+        askets);
         // Expected: Total baskets: 48
  
  
         // ===================================================
-        // SECTION 3: Integer division vs. double division
+        // SECTION 3: Integer division vs. double div
+        // 
+        
+        
         // ===================================================
         // Careful! Dividing two ints in Java performs INTEGER division,
         // which drops (truncates) any remainder.
