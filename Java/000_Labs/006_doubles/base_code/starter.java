@@ -10,7 +10,11 @@ class starter {
 		// the string "I love to learn coding remotely." will appear in
 		// the command window when you compile and run this program.
 		System.out.print("I love to learn coding remotely."); 
-		
+		double F = (60);
+		//      F = 60
+		double C = (F - 32) * 5/9;
+		//      C = (60 - 32) * 5/9
+		System.out.println(C);
 	
 	}
 }
