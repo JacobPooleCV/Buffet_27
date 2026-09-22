@@ -18,5 +18,9 @@ class starter {
         String resetColor = "\u001B[0m";
         String swatch = startColor + "                    " + resetColor;
         System.out.println(swatch);
+    
+    
+    
+    
     }
 }
