@@ -12,6 +12,7 @@ class starter {
 		// the command window when you compile and run this program.
 		Scanner sc = new Scanner(System.in) ;
 		System.out.print( Math.random() );
+		int x = (int) Math.random() * 90 ;
 		
 	
 	
