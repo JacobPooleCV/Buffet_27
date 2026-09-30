@@ -16,9 +16,15 @@ class starter {
 	Scanner sc = new Scanner(System.in);
 	 int num = sc.nextInt();
 	 
-	System.out.println(X);
+	System.out.println(x);
+	System.out.println(z);
+	System.out.println(y);
 	
-	if(x > 19){
+	if(z != 20) {
+
+	}
+	
+	if (x > 19) {
 
 
 	}
