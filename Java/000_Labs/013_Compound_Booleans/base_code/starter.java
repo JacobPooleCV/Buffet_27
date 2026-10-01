@@ -22,7 +22,10 @@ class starter {
 	
 	if (x > y && x > z){
 		System.out.println( x +  "is the biggest");	
-	
 	}
+
+
+
+}
 	}
 
