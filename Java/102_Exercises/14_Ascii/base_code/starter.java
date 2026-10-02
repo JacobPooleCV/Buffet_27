@@ -19,10 +19,24 @@ class starter {
 	String exhibit = sc.nextLine();
 
 	if(exhibit.equals("food")){
-		System.out.println("__ __ __ __ __");
+		System.out.println("Please pick a food piece:");
+		System.out.println("1. Corn on the Cob");
+		System.out.println("2. Apple");
+		String piece = sc.nextLine();
+
+		if(piece.equals("Corn on the Cob")){
+			System.out.println("__ __ __ __ __");
 		System.out.println("/__/__/__/__/__/|");
 		System.out.println("/__/__/__/__/__/|/");
 		System.out.println("|__'__'__'__'__|/");
+		}
+		else if(piece.equals("Apple	")){
+			System.out.println(",--./,-.");
+			System.out.println("/ #      /");
+			System.out.println("|          |");
+			System.out.println(" /       / ");
+			System.out.println("`._,._,'");
+		}
 
 	}
 	else if(exhibit.equals("Sports")){
