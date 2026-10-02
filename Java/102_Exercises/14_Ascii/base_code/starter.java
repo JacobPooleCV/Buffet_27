@@ -25,18 +25,18 @@ class starter {
 
 	}
 	else if(exhibit.equals("Space")){
-
+		System.out.println("|^|");
+		System.out.println("|#|");
+		System.out.println("|===|");
+		System.out.println("|0|");
+		System.out.println("| |");
+		System.out.println("=====");
+		System.out.println("_||_||_");
 	}
 	else{
 
 	}
-	System.out.println("|^|");
-	System.out.println("|#|");
-	System.out.println("|===|");
-	System.out.println("|0|");
-	System.out.println("| |");
-	System.out.println("=====");
-	System.out.println("_||_||_");
+	
 	
 	
 	
