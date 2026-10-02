@@ -19,15 +19,24 @@ class starter {
 	String exhibit = sc.nextLine();
 
 	if(exhibit.equals("food")){
+		System.out.println("__ __ __ __ __");
+		System.out.println("/__/__/__/__/__/|");
+		System.out.println("/__/__/__/__/__/|/");
+		System.out.println("|__'__'__'__'__|/");
 
 	}
 	else if(exhibit.equals("Sports")){
-
+		System.out.println("_");
+		System.out.println(",|||.");
+		System.out.println("|||||");
+		System.out.println("|||||/)");
+		System.out.println("/,,, /");
+		System.out.println("|__|");
 	}
 	else if(exhibit.equals("Space")){
 		System.out.println("|^|");
 		System.out.println("|#|");
-		System.out.println("|===|");
+	    System.out.println("|===|");
 		System.out.println("|0|");
 		System.out.println("| |");
 		System.out.println("=====");
