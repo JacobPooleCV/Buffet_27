@@ -10,9 +10,9 @@ class starter {
 	public static void main(String args[]) {
 		// the string "I love to learn coding remotely." will appear in
 		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+	int x = 1;
 	if(x < 1000){
-		System.out.println("Pick a range between 1 and 100")
+		System.out.println("Pick a range between 1 and 100");
 	}
 
 
