@@ -17,14 +17,13 @@ class starter {
 
 		
 	
-	System.out.println("Choose your character");
 	System.out.println(x + y + z);
 	
 	Scanner sc = new Scanner(System.in);
 	System.out.print("Enter your character choice ");
 	String choice = sc.nextLine();
 	
-	System.out.println("x equals choice: " + x.equals(choice));
+	System.out.println("x equals choice : " + x.equals(choice));
 	
 	
 	}
