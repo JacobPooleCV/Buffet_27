@@ -22,10 +22,12 @@ public class starter {
 
         System.out.println("Bonus was:  + bonus");
 
+         int x = 0;
+        
         if (x == 0) {
             System.out.println("x is zero!");
         }
-        int x = 0;
+
 
         int number2 = 100;
         System.out.println("Final number: " + number);
