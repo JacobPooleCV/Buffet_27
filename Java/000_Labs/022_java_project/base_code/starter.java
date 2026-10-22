@@ -16,6 +16,26 @@ class starter {
 		System.out.println("The slot machine will rol 3 dices");
 		System.out.println("If two dices match it will double your money");
 		System.out.println("If none of the dices match you lose half of your money");
+		
+		
+		
+		
+		
+		int y = 0;
+		int Y = 0;
+		int yes = 0;
+		int Yes = 0;
+		Scanner sc = new Scanner(System.in);
+		int money = 100;
+		System.out.println("Would you like to play the slots? (Yes/yes/Y/y) : y ");
+		String text = sc.nextLine();
+		System.out.println("You have 100$. How much would you like to wager?");
+		int wager = sc.nextInt();
+		int a = (int)(Math.random() * 10) + 1;
+		int b = (int)(Math.random() * 10) + 1;
+		int c = (int)(Math.random() * 10) + 1;
+		System.out.println("")
+	
 	
 	}
 }
