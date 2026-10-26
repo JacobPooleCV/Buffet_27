@@ -34,7 +34,7 @@ class starter {
 		int a = (int)(Math.random() * 10) + 1;
 		int b = (int)(Math.random() * 10) + 1;
 		int c = (int)(Math.random() * 10) + 1;
-		System.out.println("")
+			System.out.println("|" + a + );
 	
 	
 	}

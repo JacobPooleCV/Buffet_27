@@ -8,19 +8,30 @@ import java.util.Scanner;
 class starter {
 	public static void main(String args[]) {
 		// Your code goes below here
-		Scanner sc = new Scanner(System.in);
-		int randomnum = (int)(Math.random()*999)+1;
-		System.out.println("Guess a number between 1 and 1000: ");
-		int guess = sc.nextInt();
-		while (guess != randomnum){
-			if(guess > randomnum)
-			System.out.println(x: " Its too high, try again!");
-			guess sc.nextInt();
+	Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome to the game guess a number.");
+        System.out.println("Please guess a number");
+        int guess = sc.nextInt();
+        int number = (int)(Math.random() * 1000) + 1; 
+        while (guess != number) {
+            if (guess < number) {
+                System.out.println("The number is higher.");
+            } else {
+                System.out.println("The number is lower.");
+            }
+            guess = sc.nextInt();
+            if (guess == number){
+				break;
+			}
 		}
-		if(guess < randomnum){
-			System.out.println(x: " Its too low, try again");
-			guess sc.nextInt();
-		}
-		
+		System.out.println("You guessed the number!");
+
+
+
+
 	}
 }
+                
+			
+        
+	
