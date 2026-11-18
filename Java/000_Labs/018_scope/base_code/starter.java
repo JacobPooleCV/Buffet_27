@@ -13,21 +13,23 @@ public class starter {
             String message = "Number is greater than 5!";
         }
 
-        System.out.println(message);
+        System.out.println("message");
 
         if (number < 20) {
             int bonus = 5;
             number = number + bonus;
         }
 
-        System.out.println("Bonus was: " + bonus);
+        System.out.println("Bonus was:  + bonus");
 
+         int x = 0;
+        
         if (x == 0) {
             System.out.println("x is zero!");
         }
-        int x = 0;
 
-        int number = 100;
+
+        int number2 = 100;
         System.out.println("Final number: " + number);
     }
 }
